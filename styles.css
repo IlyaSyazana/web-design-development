@@ -1,0 +1,113 @@
+<div class="step-description">Digital marketing is constantly evolving — stay curious and take advanced courses to keep my skills sharp.</div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-icon">10</div>
+          <div class="step-content">
+            <div class="step-title">Aim for Leadership Roles</div>
+            <div class="step-description">With experience, aim for roles like marketing manager or strategist, leading campaigns and mentoring juniors.</div>
+          </div>
+        </div>
+      </div>
+      <div class="illustration" style="margin-top: 100px;">
+        <img src="img/image2.png" alt="Illustration" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Section for Page Enhancement -->
+  <section id="extra-steps" style="background-color: #f1f1f1; padding: 60px;">
+    <h2>Helpful Tips for Success</h2>
+    <p>Stay updated on digital marketing trends by following top blogs, podcasts, and industry news. Build a personal brand online through LinkedIn and a professional website.</p>
+    <p>Remember to measure my campaigns regularly and adapt based on data. The best marketers are agile and continuously learning.</p>
+  </section>
+
+</body>
+</html>
+}
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+.figure-card {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 100%;
+}
+.figure-card img {
+    width: 100%;
+    height: 200px;
+    aspect-ratio: 19 / 6;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.figure-content {
+    padding: 20px;
+}
+.figure-content h3 {
+    color: #264143;
+    font-family: 'Bogart', serif;
+}
+.figure-content p {
+    font-size: 14px;
+    color: #333;
+}
+.figure-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #DE5499;
+    color: #F2EBE9;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.figure-content a:hover {
+    background-color: #264143;
+    color: #ffffff;
+}
+
+.padding-bottom {
+    padding-bottom: 120px;
+}
+
+.padding-top {
+    padding-top: 120px;
+}
+
+.text-white {
+    color: white;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;   /* horizontal row */
+    gap: 30px;
+    overflow-x: auto;      /* enable horizontal scroll if too wide */
+    padding: 10px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Optional: fix width for figure-cards for consistent sizing */
+.figure-card {
+    min-width: 280px;    /* fixed card width */
+    max-width: 280px;
+}
+
+/* Hide scrollbar for better look (optional) */
+.cards-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+.cards-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+.cards-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 84, 153, 0.7);
+    border-radius: 4px;
+}
